@@ -1,4 +1,4 @@
-package com.java.cleanarch.configuration;
+package com.java.cleanarch.config;
 
 import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;

@@ -1,4 +1,4 @@
-package com.java.cleanarch.configuration;
+package com.java.cleanarch.config;
 
 import com.java.cleanarch.db.StudentAdapterImpl;
 import com.java.cleanarch.usecases.adapter.StudentAdapter;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class UseCaseConfiguration
+public class UseCaseConfig
 {
     @Bean
     public FindStudentByNameUseCase findStudentByNameUseCase(StudentAdapter studentAdapter)
