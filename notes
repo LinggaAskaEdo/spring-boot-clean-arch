@@ -1,0 +1,12 @@
+Database
+1. Create Database SPRING-BOOT-CLEAN-ARCH
+2. Create Table student like test.sql in configuration/resources
+
+How to Run
+1. go to configuration project
+2. run mvn spring-boot:run command in terminal
+3. make sure configuration/resources/application.properties already configured
+
+Test API
+1. Open POSTMAN
+2. method: GET, url:localhost:6666/spring-boot-clean-arch/student/find/?name=Khanh
